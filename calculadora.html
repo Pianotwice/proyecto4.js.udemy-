@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculadora Online</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos/estilos.css">
+        <script src="scripts/scripts.js"></script>
+    </head>
+    <body>
+        <container>
+            <div class="overlay">
+                <h1>&#x1F9E9; Calculadora Online</h1>
+
+                <input type="text" id="valor1" value="0">
+                <input type="text" id="valor2" value="0">
+                <br>
+                <br>
+                <button onclick="suma()"><strong>+</strong></button>
+                <button onclick="resta()"><strong>-</strong></button>
+                <button onclick="multiplica()"><strong>x</strong></button>
+                <button onclick="divide()"><strong>/</strong></button>
+                <br>
+                <div class="doble">
+                    <button onclick="raiz()"><strong>Raíz</strong></button>
+                    <button onclick="potencia()"><strong>Potencia</strong></button>
+                    <br>
+                    <button onclick="valorAbsoluto()"><strong>Val Abs</strong></button>
+                    <button onclick="random()"><strong>Random</strong></button>
+                </div>
+                <h3>Resultado</h3>
+                <input type="text" id="valor3" value="0">
+                <br>
+                <br>
+                <div class="triple">
+                    <button onclick="round()"><span><strong>Round</strong></span></button>
+                    <button onclick="floor()"><span><strong>Round Min</strong></span></button>
+                    <button onclick="ceil()"><span><strong>Round Max</strong></span></button>
+                </div>
+            </div>
+        </container>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>

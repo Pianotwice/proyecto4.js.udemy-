@@ -1,0 +1,35 @@
+Calculadora online.
+
+1. Debe tener dos visores superiores, uno para calcular y el 
+otro para mostrar resultados.
+
+2. Debe sumar, restar, multiplicar y dividir; debe realizar 
+potencia, tomará el primer numero y elevarlo al segundo, debe 
+sacar raíz cuadrada y valor absoluto, que solo tomarán en 
+cuenta el valor del segundo campo para sacar el valor campo.
+
+3. De ser capaz de crear números aleatorios, tomando como 
+valor mínimo el primer número y como valor máximo el segundo 
+número.
+
+4. Por último, mostrado el resultado de cualquiera de las 
+operaciones, el usuario podrá tener una opción para redonderar 
+ese resultado, con ROUND, FLOOR y CEIL, que van a tomar el 
+valor del campo resultado y lo van a reemplazar po el mismo 
+redondeado, según corresponda.
+
+** ALGUNAS PISTAS **
+
+- Cada botón se asocia a una función de JavaScript que se va a 
+encargar de realizar las operaciones y mostrarlas en el visor 
+del resultado.
+
+- Para mostrar el resultado en el visor se recomienda crear una 
+sola función que se puede llamar mostrarResultado() que
+-- reciba un resultado a través de su parámetro
+-- muestre el resultado en el imput resultado
+Entonces luego, en cada función de las operaciones, estas van a 
+llamar a esa función, esto permite reutilizar el código y no 
+programar en cada función.
+- Comenzar por HTML, luego por JS, y es opcional crear los 
+estilos de CSS
